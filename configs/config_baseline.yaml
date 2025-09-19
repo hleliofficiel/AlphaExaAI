@@ -1,0 +1,12 @@
+# Baseline config for AlphaExaAI
+model:
+  type: transformer
+  hidden_size: 512
+  num_layers: 6
+training:
+  batch_size: 32
+  learning_rate: 0.0005
+  epochs: 5
+system:
+  nodes: 2
+  gpus_per_node: 4
