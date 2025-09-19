@@ -2,7 +2,7 @@
 
 ## 📊 Sample Result (Training Loss Curve)
 <p align="center">
-  <img src="https://raw.githubusercontent.com/ultralytics/yolov5/master/data/images/zidane.jpg" width="500">
+  <img src="[https://raw.githubusercontent.com/ultralytics/yolov5/master/data/images/zidane.jpg](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLRpo2vYs0T-iLsmeETwk1D8x9eFCqzjmQO9tqYu1f0w&s=10)" width="500">
 </p>
 
 ---
