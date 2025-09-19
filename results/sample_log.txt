@@ -1,0 +1,6 @@
+[Epoch 1] Training... Loss=0.8421
+[Epoch 2] Training... Loss=0.5342
+[Epoch 3] Training... Loss=0.3348
+[Epoch 4] Training... Loss=0.2441
+[Epoch 5] Training... Loss=0.1785
+Training finished. Checkpoints saved!
