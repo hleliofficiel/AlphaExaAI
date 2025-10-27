@@ -1,0 +1,32 @@
+# Core libraries for distributed deep learning
+torch>=2.3.0+cu118         # PyTorch with CUDA 11.8 support
+torchvision>=0.15.0+cu118
+torchaudio>=2.3.0+cu118
+
+# Distributed training and communications
+mpi4py>=4.1.4
+horovod>=0.26.0
+
+# Performance and monitoring
+apex==0.9.10               # NVIDIA Apex for mixed precision (optional)
+nvidia-ml-py3>=11.495      # NVIDIA management library
+
+# Utilities
+pyyaml>=6.0
+tqdm>=4.65.0
+numpy>=1.25.0
+
+# Metrics & visualization
+prometheus-client>=0.17.0
+grafanalib>=0.5.3
+
+# Logging & experiment tracking
+wandb>=0.15.0              # Optional: Weights & Biases for tracking
+
+# Optional large-model support
+deepspeed>=0.9.2
+transformers>=4.35.0       # Hugging Face Transformers
+datasets>=2.25.0
+
+# Compatibility
+setuptools>=65.0.0
