@@ -1,6 +1,4 @@
-
-
-# 🌌 **AlphaExaAI**
+# **AlphaExaAI**
 _Distributed Deep Learning Simulator & Benchmarking Framework for Exascale AI Systems_
 
 ![Python](https://img.shields.io/badge/python-3.10+-blue.svg?logo=python)
@@ -11,160 +9,197 @@ _Distributed Deep Learning Simulator & Benchmarking Framework for Exascale AI Sy
 ![Status](https://img.shields.io/badge/status-active-success.svg)
 
 ---
-
-## 🧠 Overview
-
-**AlphaExaAI** is an open-source **distributed deep learning simulator** designed for next-generation **exascale computing platforms** such as **Aurora** and **Polaris** at the Argonne Leadership Computing Facility (ALCF).  
-
-It aims to provide **scalable AI benchmarking**, **resilience testing**, and **fault-tolerant training simulation** using real-world deep learning workloads.
-
-This project bridges **AI research** and **HPC performance engineering**, enabling researchers to understand the computational patterns, communication bottlenecks, and scaling efficiency of large models (GPT, LLaMA, DeepSpeed, Megatron-LM) across thousands of GPUs.
-
-
-
-
-## 🎯 Motivation & Research Goals
-
-> "How can we prepare AI training frameworks for Exascale systems?"
-
-| Objective | Description |
-|------------|-------------|
-| **Scalability Testing** | Evaluate distributed PyTorch training at 64–256+ nodes using NCCL/MPI backends. |
-| **Fault Injection** | Simulate node failures, recovery, and checkpointing strategies for long-duration runs. |
-| **Energy Profiling** | Measure GPU power draw, CPU utilization, and communication overhead. |
-| **Model Reproducibility** | Guarantee deterministic results across multiple architectures and cluster scales. |
-| **Open Science** | All code, data, and benchmarks are openly published for the global HPC-AI community. |
+#ProjectaExaAI — 250B Exascale Foundation Model**
+**Next-generation open-source agentic intelligence designed for exascale supercomputing systems.**  
+Built to surpass Gemini 3, Claude Sonnet 4.5, GPT-5 class models in reasoning, planning, scientific analysis, and code execution.
 
 ---
 
-## 🧩 Key Features
-
-| Feature | Description |
-|---------|-------------|
-| 🧠 **Hybrid Parallelism** | Data + model + pipeline parallelism (via DeepSpeed & FSDP). |
-| 🔁 **Checkpoint & Recovery** | Fault-tolerant mechanisms for long multi-node jobs. |
-| 📊 **Telemetry Integration** | Metrics exported to **Prometheus**, visualized with **Grafana dashboards**. |
-| ⚙️ **Dynamic Scaling** | Support for adaptive batch size per GPU and elastic training. |
-| 💻 **Multi-Backend Support** | PyTorch DDP, Horovod, and MPI4Py for large-scale runs. |
-| 🔬 **Synthetic & Real Workloads** | Includes LLaMA-2, GPT-3, and BERT microbenchmarks. |
-
----
-
-## ⚙️ Architecture Overview
 <p align="center">
-  <img src="https://raw.githubusercontent.com/github/explore/main/topics/deep-learning/deep-learning.png" width="420">
+  <img src="https://www.pngkey.com/png/full/894-8943983_artificial-intelligence-png.png"130">
 </p>
 
-└── alphaexaai/ ├── core/                 # Distributed core modules ├── models/               # Model definitions (GPT, LLaMA, etc.) ├── configs/              # YAML configs for cluster experiments ├── scripts/              # SLURM/PBS batch scripts for HPC ├── utils/                # Logging, monitoring, fault injection ├── docs/                 # Documentation and research papers ├── results/              # Performance outputs, logs, charts └── tests/                # Benchmarking and validation suite
+---
+
+##  Overview
+
+**AlphaExaAI** is a large-scale foundation model (**250B parameters**) engineered for exascale distributed training across GPU supercomputers.  
+It combines:
+
+- **Hybrid Mixture-of-Experts (MoE) + Dense Transformers**
+- **Agentic Intelligence Layer**
+- **1M-token context window**
+- **Scientific reasoning modules**
+- **Fully distributed execution across 64–512 GPUs**
+
+AlphaExaAI aims to be the **strongest open-source agentic AI framework in the world**, optimized for HPC centers such as:
+
+- Polaris (A100)
+- Aurora
+- ILABT
+- EGI Federation
+- LUMI
+- EuroHPC systems
 
 ---
 
-## 📊 Preliminary Results
+## 🌟 Project Mission
 
-| Model | Nodes | GPUs | Training Throughput (samples/sec) | Scaling Efficiency |
-|--------|--------|------|----------------------------------|-------------------|
-| GPT-3 (175B) | 32 | 256 | 48,000 | 74% |
-| LLaMA-2 (70B) | 64 | 512 | 115,000 | 82% |
-| **AlphaExaAI (target)** | 128 | 1024 | **260,000+** | **88%** |
+AlphaExaAI is designed to:
 
-> *Results simulated and validated on distributed GPU clusters using NCCL backends.*
-
-
-
-## 🧪 Experiment Scripts
-
-Example HPC job script (`scripts/run_polars.sh`):
-
-```bash
-#!/bin/bash
-#SBATCH -A ALCF_AI
-#SBATCH -N 64
-#SBATCH -t 02:00:00
-#SBATCH -J alphaexaai_train
-#SBATCH --gpus-per-node=8
-#SBATCH --ntasks-per-node=8
-
-module load pytorch/2.3
-module load cuda/11.8
-module load openmpi
-
-srun python3 train_distributed.py --config configs/polaris_64.yaml
-
+1. Deliver an *exascale-ready* open-source AI model at 250B parameters  
+2. Provide an **agentic system** capable of tool use, planning, coding, mathematics, and physics  
+3. Offer a **transparent training blueprint** for HPC researchers  
+4. Release **public benchmarks, datasets, logs, and scaling results**  
+5. Act as a research-grade alternative to closed frontier models  
 
 ---
 
-🧰 Installation
+# 🔗 Official Resources
 
-git clone https://github.com/hleliofficiel/AlphaExaAI.git
-cd AlphaExaAI
-pip install -r requirements.txt
-
-Or using Conda:
-
-conda env create -f environment.yml
-conda activate alphaexaai
-
+| Item | Link |
+|------|------|
+| 📦 GitHub Repository | https://github.com/hleliofficiel/AlphaExaAI |
+| 🌐 Website (activation pending) | https://alphaexa.ai |
+| 📚 Documentation | `docs/` folder |
+| 📝 Technical Specification | `docs/AlphaExaAI_Model_Spec_250B.md` |
+| 📈 Benchmarks | `docs/Benchmarks_Initial.md` |
+| ⚙️ Scaling Guide | `docs/Scaling_Strategy_Polaris_Aurora.md` |
 
 ---
 
-📆 Roadmap
+# 🧬 Model Architecture (High Overview)
 
-Phase	Objective	Status
+AlphaExaAI-250B uses a **Hybrid MoE Transformer** featuring:
 
-Phase 1	Local and single-node debugging	✅ Completed
-Phase 2	Multi-node scaling (≤64 nodes)	🟡 In progress
-Phase 3	Full exascale benchmarking on Polaris	🔜 Planned
-Phase 4	Publish open performance datasets	🔜 Planned
+- **250B total parameters**
+- 32 MoE experts (6.5B each)
+- 120 transformer layers
+- 128 attention heads
+- Extended RoPE positional embeddings
+- 1M token context capability
+- FlashAttention-3 kernels
+- Reinforced planning module (AgentCore)
 
+<p align="center">
+  <img src="https://camo.githubusercontent.com/4d76569b4d17ab35fbf2de42aa02b56a65ad0549812be2c96875dcde39824ece/68747470733a2f2f68756767696e67666163652e636f2f64617461736574732f68756767696e67666163652f646f63756d656e746174696f6e2d696d616765732f7261772f6d61696e2f7472616e73666f726d6572732d6c6f676f2d6461726b2e737667" width="380">
+</p>
 
-📚 Documentation & Results
+---
 
-📄 Simulation Whitepaper (draft)
+# 🔥 Key Capabilities
 
-📈 Results Dashboard (Grafana JSON)
+### 🧠 **Agentic Intelligence**
+- Multi-step planning  
+- Tool + API calling  
+- Memory optimization  
+- Code execution engine  
+- Autonomous research workflows  
 
-🧾 Scaling Experiments Summary
+### 📘 **Scientific & Mathematical Reasoning**
+- Physics modeling  
+- Equation solving  
+- Symbolic algebra  
+- Multi-document analysis  
 
+### 🖥 **Exascale Optimization**
+- FSDP  
+- ZeRO-3  
+- MoE parallelism  
+- Tensor + pipeline parallel  
+- Recovery-aware checkpointing  
 
-🧑‍💻 Contributors
+---
 
-Name	Role	Contact
+# 📊 Expected Performance Targets
 
-Muhammad Alhilali	Principal Investigator (PI)	
-Research DDLSIM Researchh Group	Distributed Systems R&D https://github.com/DarekHub/DDLSim-BY-KTRUBY	
-Community Collaborators	Open-source contributors	GitHub Issues
+| Capability | Expected Level | Equivalent To |
+|------------|----------------|----------------|
+| Code Reasoning | Very High | GPT-5, Sonnet 4.5 |
+| Math & Logic | Extremely High | Gemini 3 Pro |
+| Long Context | 1,000,000 tokens | Claude 3.5 class |
+| Multi-Agent Ops | Advanced | GPT-5 / DeepSeek-R1 |
+| Physics & Engineering | HPC-enhanced | Research-grade |
 
+---
+# 🏗 Repository Structure
+AlphaExaAI/ │ ├── docs/ │   ├── AlphaExaAI_Model_Spec_250B.md │   ├── Architecture_Details.md │   ├── Training_Plan_Exascale.md │   ├── Scaling_Strategy_Polaris_Aurora.md │   ├── Benchmarks_Initial.md │   └── Research_Objectives.md │ ├── src/ │   ├── modeling/ │   ├── agents/ │   ├── training/ │   ├── data/ │   └── utils/ │ ├── scripts/ │   ├── run_distributed.sh │   └── slurm/ │ ├── requirements.txt └── README.md
 
+---
 
-⚖️ License
+# ⚡ Why HPC Resources Are Required
 
-This project is released under the MIT License.
-See the LICENSE file for details.
+AlphaExaAI needs supercomputing power because it involves:
 
+- Training a **250B parameter MoE foundation model**  
+- Running **multi-node distributed experiments**  
+- 24/7 fault-tolerant long runs  
+- 50GB+ checkpoints  
+- 15T+ training tokens  
+- High-speed interconnect (>1 TB/s aggregated)  
 
-🧭 Citation
+Cloud systems cannot support sustained training of this scale — HPC is mandatory.
 
-If you use AlphaExaAI in your research, please cite:
+---
 
-@misc{alphaexaai2025,
-  title={AlphaExaAI: Distributed Deep Learning Simulator for Exascale AI Systems},
-  author={Alhilali, Muhammad and contributors},
-  year={2025},
-  url={https://github.com/hleliofficiel/AlphaExaAI}
-}
+# 📈 Early Benchmarks (Prototype)
 
+| Model | GPUs | Throughput | Notes |
+|-------|------|------------|--------|
+| 1B prototype | 32 A100 | 220K tok/s | Stable |
+| 7B prototype | 64 A100 | 680K tok/s | Full attention |
+| 30B prototype | 128 A100 | 1.4M tok/s | Distributed stable |
+| 250B (target) | 1024 A100 | ~4.0M tok/s | Projection |
 
+Full results in:  
+`docs/Benchmarks_Initial.md`
 
-🌐 Acknowledgements
+---
 
-Supported by open-source communities and preliminary testing on:
+# 🎯 Roadmap
 
-Argonne National Laboratory (ALCF)
+### **Phase 1 — Core Development (done)**
+- Tokenizer  
+- Dataset processing  
+- Prototype 1B/7B models  
 
-NVIDIA HPC Developer Program
+### **Phase 2 — Distributed Scaling (in progress)**
+- NCCL + FSDP  
+- Multi-node MoE  
 
-OpenAI Research Ecosystem
+### **Phase 3 — Full AlphaExaAI-250B Training**
+- 64 → 256 nodes  
+- 24/7 training  
+- Evaluation + RLHF  
 
-IdrakAI Research Team
+### **Phase 4 — Release**
+- Public inference API  
+- Model weights  
+- Web demo  
+- Benchmark papers  
 
+---
 
+# 👤 Project Lead & Contact
+
+- **Lead Researcher:** *Mohammed Hleli*  
+- **Email:** *h.hleli@tuta.io*  
+- **GitHub:** https://github.com/hleliofficiel  
+- **Location:** Tunisia — HPC Open Researcher  
+
+---
+
+<p align="center">
+  <img src="https://i0.wp.com/www.wi6labs.com/wp-content/uploads/2019/12/Machine-learning-logo-1.png" width="150">
+</p>
+
+---
+
+# 🟦 License
+
+This project is released under the **MIT License**.  
+All contributions and research outputs remain open to the scientific community.
+
+---
+
+**AlphaExaAI — The future of open, exascale, agentic intelligence.**
