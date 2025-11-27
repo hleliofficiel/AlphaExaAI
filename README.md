@@ -1,4 +1,4 @@
-# **AlphaExaAI**
+#   **AlphaExaAI**
 _Distributed Deep Learning Simulator & Benchmarking Framework for Exascale AI Systems_
 
 ![Python](https://img.shields.io/badge/python-3.10+-blue.svg?logo=python)
@@ -9,7 +9,7 @@ _Distributed Deep Learning Simulator & Benchmarking Framework for Exascale AI Sy
 ![Status](https://img.shields.io/badge/status-active-success.svg)
 
 ---
-#ProjectaExaAI — 250B Exascale Foundation Model**
+# **ProjectaExaAI — 250B Exascale Foundation Model**
 **Next-generation open-source agentic intelligence designed for exascale supercomputing systems.**  
 Built to surpass Gemini 3, Claude Sonnet 4.5, GPT-5 class models in reasoning, planning, scientific analysis, and code execution.
 
@@ -43,7 +43,7 @@ AlphaExaAI aims to be the **strongest open-source agentic AI framework in the wo
 
 ---
 
-## 🌟 Project Mission
+##  Project Mission
 
 AlphaExaAI is designed to:
 
@@ -55,7 +55,7 @@ AlphaExaAI is designed to:
 
 ---
 
-# 🔗 Official Resources
+# Modelcial Resources
 
 | Item | Link |
 |------|------|
@@ -68,7 +68,7 @@ AlphaExaAI is designed to:
 
 ---
 
-# 🧬 Model Architecture (High Overview)
+#  Model Architecture (High Overview)
 
 AlphaExaAI-250B uses a **Hybrid MoE Transformer** featuring:
 
@@ -87,22 +87,22 @@ AlphaExaAI-250B uses a **Hybrid MoE Transformer** featuring:
 
 ---
 
-# 🔥 Key Capabilities
+#  Key Capabilities
 
-### 🧠 **Agentic Intelligence**
+###  **Agentic Intelligence**
 - Multi-step planning  
 - Tool + API calling  
 - Memory optimization  
 - Code execution engine  
 - Autonomous research workflows  
 
-### 📘 **Scientific & Mathematical Reasoning**
+###  **Scientific & Mathematical Reasoning**
 - Physics modeling  
 - Equation solving  
 - Symbolic algebra  
 - Multi-document analysis  
 
-### 🖥 **Exascale Optimization**
+###  **Exascale Optimization**
 - FSDP  
 - ZeRO-3  
 - MoE parallelism  
@@ -111,7 +111,7 @@ AlphaExaAI-250B uses a **Hybrid MoE Transformer** featuring:
 
 ---
 
-# 📊 Expected Performance Targets
+#  Expected Performance Targets
 
 | Capability | Expected Level | Equivalent To |
 |------------|----------------|----------------|
@@ -122,12 +122,12 @@ AlphaExaAI-250B uses a **Hybrid MoE Transformer** featuring:
 | Physics & Engineering | HPC-enhanced | Research-grade |
 
 ---
-# 🏗 Repository Structure
+#  Repository Structure
 AlphaExaAI/ │ ├── docs/ │   ├── AlphaExaAI_Model_Spec_250B.md │   ├── Architecture_Details.md │   ├── Training_Plan_Exascale.md │   ├── Scaling_Strategy_Polaris_Aurora.md │   ├── Benchmarks_Initial.md │   └── Research_Objectives.md │ ├── src/ │   ├── modeling/ │   ├── agents/ │   ├── training/ │   ├── data/ │   └── utils/ │ ├── scripts/ │   ├── run_distributed.sh │   └── slurm/ │ ├── requirements.txt └── README.md
 
 ---
 
-# ⚡ Why HPC Resources Are Required
+#  Why HPC Resources Are Required
 
 AlphaExaAI needs supercomputing power because it involves:
 
@@ -142,7 +142,7 @@ Cloud systems cannot support sustained training of this scale — HPC is mandato
 
 ---
 
-# 📈 Early Benchmarks (Prototype)
+#  Early Benchmarks (Prototype)
 
 | Model | GPUs | Throughput | Notes |
 |-------|------|------------|--------|
@@ -156,7 +156,7 @@ Full results in:
 
 ---
 
-# 🎯 Roadmap
+#  Roadmap
 
 ### **Phase 1 — Core Development (done)**
 - Tokenizer  
@@ -180,7 +180,7 @@ Full results in:
 
 ---
 
-# 👤 Project Lead & Contact
+# Licenset Lead & Contact
 
 - **Lead Researcher:** *Mohammed Hleli*  
 - **Email:** *h.hleli@tuta.io*  
@@ -195,9 +195,7 @@ Full results in:
 
 ---
 
-# 🟦 License
-
-This project is released under the **MIT License**.  
+# RepositoryThis project is released under the **MIT License**.  
 All contributions and research outputs remain open to the scientific community.
 
 ---
