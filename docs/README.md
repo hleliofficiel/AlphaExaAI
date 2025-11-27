@@ -89,7 +89,7 @@ AlphaExaAI aims to democratize large-scale AI research by:
 # 🏗️ **High-Level Architecture**
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/github/explore/main/topics/transformer/transformer.png" width="420">
+  <img src="https://camo.githubusercontent.com/4d76569b4d17ab35fbf2de42aa02b56a65ad0549812be2c96875dcde39824ece/68747470733a2f2f68756767696e67666163652e636f2f64617461736574732f68756767696e67666163652f646f63756d656e746174696f6e2d696d616765732f7261772f6d61696e2f7472616e73666f726d6572732d6c6f676f2d6461726b2e737667" width="420">
 </p>
 
 ---
