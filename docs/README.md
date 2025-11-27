@@ -9,7 +9,7 @@
 
 ---
 
-## 🚀 **Introduction**
+##  **Introduction**
 **AlphaExaAI** is a next-generation *exascale-ready* foundation model designed to surpass current frontier AI systems such as **GPT-5**, **Gemini 3**, **Claude 4.5 Sonnet**, and **LLaMA-4** through a scalable hybrid mixture-of-experts architecture optimized for HPC deployments.
 
 It is built as:
@@ -23,7 +23,7 @@ This documentation provides the extended *technical overview*, *research goals*,
 
 ---
 
-## 🎯 **Mission of the Project**
+##  **Mission of the Project**
 AlphaExaAI aims to democratize large-scale AI research by:
 
 1. Providing a reproducible blueprint for training models at 250B scale  
@@ -45,12 +45,12 @@ AlphaExaAI aims to democratize large-scale AI research by:
 
 ---
 
-# 🧬 **Core Features**
+#  **Core Features**
 
 <table>
 <tr><td>
 
-### ⚡ 1. **250B Hybrid MoE Architecture**  
+###  1. **250B Hybrid MoE Architecture**  
 - 120 Transformer layers  
 - 32 experts per MoE block  
 - RoPE (extended) positional encoding  
@@ -58,7 +58,7 @@ AlphaExaAI aims to democratize large-scale AI research by:
 
 </td><td>
 
-### 🧩 2. **Agentic Intelligence Layer**  
+###  2. **Agentic Intelligence Layer**  
 - Multi-step planning  
 - Tool + API calling  
 - Code execution  
@@ -67,7 +67,7 @@ AlphaExaAI aims to democratize large-scale AI research by:
 </td></tr>
 <tr><td>
 
-### 🧠 3. **Scientific Reasoning Engine**  
+###  3. **Scientific Reasoning Engine**  
 - Physics  
 - Mathematics  
 - Multi-document analysis  
@@ -75,7 +75,7 @@ AlphaExaAI aims to democratize large-scale AI research by:
 
 </td><td>
 
-### 🚀 4. **Optimized for Exascale Systems**  
+###  4. **Optimized for Exascale Systems**  
 - Polaris (A100)  
 - Aurora (Xe)  
 - Multi-dimensional parallelism  
@@ -86,7 +86,7 @@ AlphaExaAI aims to democratize large-scale AI research by:
 
 ---
 
-# 🏗️ **High-Level Architecture**
+#  **High-Level Architecture**
 
 <p align="center">
   <img src="https://camo.githubusercontent.com/4d76569b4d17ab35fbf2de42aa02b56a65ad0549812be2c96875dcde39824ece/68747470733a2f2f68756767696e67666163652e636f2f64617461736574732f68756767696e67666163652f646f63756d656e746174696f6e2d696d616765732f7261772f6d61696e2f7472616e73666f726d6572732d6c6f676f2d6461726b2e737667" width="420">
@@ -94,7 +94,7 @@ AlphaExaAI aims to democratize large-scale AI research by:
 
 ---
 
-## 🔧 **Training Pipeline (Overview)**
+##  **Training Pipeline (Overview)**
 - Preprocessing: SentencePiece 250k  
 - DDP + TensorParallel + MoEParallel  
 - FlashAttention-3 kernels  
@@ -102,7 +102,7 @@ AlphaExaAI aims to democratize large-scale AI research by:
 
 ---
 
-# 🔥 **Why AlphaExaAI Requires HPC Resources**
+#  **Why AlphaExaAI Requires HPC Resources**
 
 ### Because the project involves:
 - 250B parameters  
@@ -117,7 +117,7 @@ Supercomputing resources like **ILABT**, **Polaris**, **Aurora**, and **EGI** ar
 
 ---
 
-# 📊 **Expected Performance Targets**
+#  **Expected Performance Targets**
 
 | Task | AlphaExaAI Goal | Comparison |
 |------|------------------|-------------|
@@ -147,7 +147,7 @@ Supercomputing resources like **ILABT**, **Polaris**, **Aurora**, and **EGI** ar
 
 ---
 
-# 🧪 **Initial Benchmarks**
+#  **Initial Benchmarks**
 
 See full benchmarks at:  
 `/docs/Benchmarks_Initial.md`
@@ -162,7 +162,7 @@ Example table:
 
 ---
 
-# 🧭 **Roadmap**
+#  **Roadmap**
 
 ### Phase 1 — Core Infrastructure (✓ Completed)
 - Tokenizer  
@@ -186,7 +186,7 @@ Example table:
 
 ---
 
-# ✨ **Project Vision**
+#  **Project Vision**
 
 AlphaExaAI aims to become:
 
@@ -196,7 +196,7 @@ Open. Reproducible. Exascale-ready.
 
 ---
 
-# 📣 **Contact**
+#  **Contact**
 - **Lead Researcher:** Mohammed Hleli  
 - **Email:** h.hleli@tuta.io  
 - **GitHub:** https://github.com/hleliofficiel  
