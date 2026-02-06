@@ -1,203 +1,76 @@
-#   **AlphaExaAI**
-_Distributed Deep Learning Simulator & Benchmarking Framework for Exascale AI Systems_
+# **AlphaExaAI — The Omnipotent Agentic Foundation**
+_The first open-source, exascale-ready foundation model designed not just to chat, but to **act**, **build**, and **control**._
 
-![Python](https://img.shields.io/badge/python-3.10+-blue.svg?logo=python)
-![PyTorch](https://img.shields.io/badge/PyTorch-2.3+-ee4c2c.svg?logo=pytorch)
-![CUDA](https://img.shields.io/badge/CUDA-11.8-green.svg?logo=nvidia)
-![MPI](https://img.shields.io/badge/MPI4Py-enabled-orange.svg)
-![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Status](https://img.shields.io/badge/status-active-success.svg)
-
----
-# **ProjectaExaAI — 250B Exascale Foundation Model**
-**Next-generation open-source agentic intelligence designed for exascale supercomputing systems.**  
-Built to surpass Gemini 3, Claude Sonnet 4.5, GPT-5 class models in reasoning, planning, scientific analysis, and code execution.
+![Status](https://img.shields.io/badge/Status-Coming_Soon-red?style=for-the-badge)
+![Context](https://img.shields.io/badge/Context-2_Million+_Tokens-blue?style=for-the-badge)
+![Parameters](https://img.shields.io/badge/Params-250B_MoE-orange?style=for-the-badge)
+![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
 
 ---
 
-<p align="center">
-  <img src="https://www.pngkey.com/png/full/894-8943983_artificial-intelligence-png.png"130">
-</p>
+> **⚠️ ANNOUNCEMENT:** AlphaExaAI is currently undergoing a massive architectural upgrade. We are preparing for the public release of a model that will redefine open-source AI benchmarks. **This is not a chatbot. This is a digital architect.**
 
 ---
 
-##  Overview
+## 🌌 The Vision: Beyond Chat
 
-**AlphaExaAI** is a large-scale foundation model (**250B parameters**) engineered for exascale distributed training across GPU supercomputers.  
-It combines:
+The era of "chatbots" is over. **AlphaExaAI** is built for the era of **Agentic Intelligence**. 
 
-- **Hybrid Mixture-of-Experts (MoE) + Dense Transformers**
-- **Agentic Intelligence Layer**
-- **1M-token context window**
-- **Scientific reasoning modules**
-- **Fully distributed execution across 64–512 GPUs**
+While models like GPT-5 or Gemini 3 focus on conversation, AlphaExaAI is engineered for **execution**. It is designed to be the "brain" behind autonomous agents, capable of complex reasoning, software engineering, system control, and multimodal creation.
 
-AlphaExaAI aims to be the **strongest open-source agentic AI framework in the world**, optimized for HPC centers such as:
+### 🚀 Key Breakthroughs
 
-- Polaris (A100)
-- Aurora
-- ILABT
-- EGI Federation
-- LUMI
-- EuroHPC systems
+#### 1. **2M+ Token Context Window (Infinite Memory)**
+Forget summarizing. AlphaExaAI can ingest entire codebases, video libraries, or scientific datasets in a single prompt. It doesn't just "remember"; it **understands** massive contexts deeply.
 
----
+#### 2. **Eco-Train Efficiency (Green AI)** 🌿
+We have cracked the code on training efficiency. Using advanced **Sparse Mixture-of-Experts (MoE)** and dynamic compute allocation, AlphaExaAI achieves 250B-parameter performance while consuming a fraction of the compute resources usually required. 
+*   **Low-Resource Training:** Optimized for distributed setups, allowing researchers to fine-tune without breaking the bank.
 
-##  Project Mission
+#### 3. **True Omnipotence (Multimodal Native)**
+AlphaExaAI doesn't just read text. It natively understands and generates:
+*   **Code:** Full-stack software development, debugging, and system architecture.
+*   **Mathematics:** Solves complex proofs and physics simulations.
+*   **Video & Image:** Native understanding and generation capabilities.
+*   **System Control:** Can interface with terminals, APIs, and robotic systems directly.
 
-AlphaExaAI is designed to:
-
-1. Deliver an *exascale-ready* open-source AI model at 250B parameters  
-2. Provide an **agentic system** capable of tool use, planning, coding, mathematics, and physics  
-3. Offer a **transparent training blueprint** for HPC researchers  
-4. Release **public benchmarks, datasets, logs, and scaling results**  
-5. Act as a research-grade alternative to closed frontier models  
+#### 4. **The Agentic Core (Powered by ExaAiAgent)** 🛡️
+AlphaExaAI is being trained on real-world operational data from **[ExaAiAgent](https://github.com/hleliofficiel/ExaAiAgent)**. It learns from actual cybersecurity scenarios, penetration tests, and system repairs, giving it "street smarts" that academic models lack.
 
 ---
 
-# Modelcial Resources
+## 🧠 Architecture Highlights
 
-| Item | Link |
-|------|------|
-| 📦 GitHub Repository | https://github.com/hleliofficiel/AlphaExaAI |
-| 🌐 Website (activation pending) | https://alphaexa.ai |
-| 📚 Documentation | `docs/` folder |
-| 📝 Technical Specification | `docs/AlphaExaAI_Model_Spec_250B.md` |
-| 📈 Benchmarks | `docs/Benchmarks_Initial.md` |
-| ⚙️ Scaling Guide | `docs/Scaling_Strategy_Polaris_Aurora.md` |
+*   **Hybrid MoE:** 250B Total Parameters (Active params optimized for speed).
+*   **Agent-Centric Attention:** Specialized attention heads for planning and multi-step reasoning.
+*   **Self-Correction Loop:** Built-in ability to critique and fix its own output (code/math) before generating.
 
 ---
 
-#  Model Architecture (High Overview)
+## 🗺️ Roadmap to Launch
 
-AlphaExaAI-250B uses a **Hybrid MoE Transformer** featuring:
-
-- **250B total parameters**
-- 32 MoE experts (6.5B each)
-- 120 transformer layers
-- 128 attention heads
-- Extended RoPE positional embeddings
-- 1M token context capability
-- FlashAttention-3 kernels
-- Reinforced planning module (AgentCore)
-
-<p align="center">
-  <img src="https://camo.githubusercontent.com/4d76569b4d17ab35fbf2de42aa02b56a65ad0549812be2c96875dcde39824ece/68747470733a2f2f68756767696e67666163652e636f2f64617461736574732f68756767696e67666163652f646f63756d656e746174696f6e2d696d616765732f7261772f6d61696e2f7472616e73666f726d6572732d6c6f676f2d6461726b2e737667" width="380">
-</p>
+- [x] **Phase 1:** Core Architecture & Tokenizer Design.
+- [ ] **Phase 2 (Current):** Integration with ExaAiAgent for specialized dataset generation.
+- [ ] **Phase 3:** Large-scale training on HPC infrastructure.
+- [ ] **Phase 4:** **PUBLIC BETA RELEASE.**
 
 ---
 
-#  Key Capabilities
+## 🤝 Join the Revolution (Contributing)
 
-###  **Agentic Intelligence**
-- Multi-step planning  
-- Tool + API calling  
-- Memory optimization  
-- Code execution engine  
-- Autonomous research workflows  
+We are building the future of open AI, and we need the best minds.
+Whether you are a researcher, an HPC engineer, or a dataset curator, your contribution is welcome.
 
-###  **Scientific & Mathematical Reasoning**
-- Physics modeling  
-- Equation solving  
-- Symbolic algebra  
-- Multi-document analysis  
-
-###  **Exascale Optimization**
-- FSDP  
-- ZeRO-3  
-- MoE parallelism  
-- Tensor + pipeline parallel  
-- Recovery-aware checkpointing  
+See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 
 ---
 
-#  Expected Performance Targets
+### 📞 Contact & Lead Researcher
 
-| Capability | Expected Level | Equivalent To |
-|------------|----------------|----------------|
-| Code Reasoning | Very High | GPT-5, Sonnet 4.5 |
-| Math & Logic | Extremely High | Gemini 3 Pro |
-| Long Context | 1,000,000 tokens | Claude 3.5 class |
-| Multi-Agent Ops | Advanced | GPT-5 / DeepSeek-R1 |
-| Physics & Engineering | HPC-enhanced | Research-grade |
-
----
-#  Repository Structure
-AlphaExaAI/ │ ├── docs/ │   ├── AlphaExaAI_Model_Spec_250B.md │   ├── Architecture_Details.md │   ├── Training_Plan_Exascale.md │   ├── Scaling_Strategy_Polaris_Aurora.md │   ├── Benchmarks_Initial.md │   └── Research_Objectives.md │ ├── src/ │   ├── modeling/ │   ├── agents/ │   ├── training/ │   ├── data/ │   └── utils/ │ ├── scripts/ │   ├── run_distributed.sh │   └── slurm/ │ ├── requirements.txt └── README.md
+**Lead Researcher:** Mohammed Hleli (Mr Amir)  
+**GitHub:** [hleliofficiel](https://github.com/hleliofficiel)  
+**Location:** Tunisia — HPC Open Researcher
 
 ---
 
-#  Why HPC Resources Are Required
-
-AlphaExaAI needs supercomputing power because it involves:
-
-- Training a **250B parameter MoE foundation model**  
-- Running **multi-node distributed experiments**  
-- 24/7 fault-tolerant long runs  
-- 50GB+ checkpoints  
-- 15T+ training tokens  
-- High-speed interconnect (>1 TB/s aggregated)  
-
-Cloud systems cannot support sustained training of this scale — HPC is mandatory.
-
----
-
-#  Early Benchmarks (Prototype)
-
-| Model | GPUs | Throughput | Notes |
-|-------|------|------------|--------|
-| 1B prototype | 32 A100 | 220K tok/s | Stable |
-| 7B prototype | 64 A100 | 680K tok/s | Full attention |
-| 30B prototype | 128 A100 | 1.4M tok/s | Distributed stable |
-| 250B (target) | 1024 A100 | ~4.0M tok/s | Projection |
-
-Full results in:  
-`docs/Benchmarks_Initial.md`
-
----
-
-#  Roadmap
-
-### **Phase 1 — Core Development (done)**
-- Tokenizer  
-- Dataset processing  
-- Prototype 1B/7B models  
-
-### **Phase 2 — Distributed Scaling (in progress)**
-- NCCL + FSDP  
-- Multi-node MoE  
-
-### **Phase 3 — Full AlphaExaAI-250B Training**
-- 64 → 256 nodes  
-- 24/7 training  
-- Evaluation + RLHF  
-
-### **Phase 4 — Release**
-- Public inference API  
-- Model weights  
-- Web demo  
-- Benchmark papers  
-
----
-
-# Licenset Lead & Contact
-
-- **Lead Researcher:** *Mohammed Hleli*  
-- **Email:** *h.hleli@tuta.io*  
-- **GitHub:** https://github.com/hleliofficiel  
-- **Location:** Tunisia — HPC Open Researcher  
-
----
-
-<p align="center">
-  <img src="https://i0.wp.com/www.wi6labs.com/wp-content/uploads/2019/12/Machine-learning-logo-1.png" width="150">
-</p>
-
----
-
-# RepositoryThis project is released under the **MIT License**.  
-All contributions and research outputs remain open to the scientific community.
-
----
-
-**AlphaExaAI — The future of open, exascale, agentic intelligence.**
+_**AlphaExaAI:** Rebalancing the scales of intelligence. The future is Open._
