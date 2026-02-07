@@ -4,7 +4,7 @@ _The first open-source, exascale-ready foundation model designed not just to cha
 ![Status](https://img.shields.io/badge/Status-Coming_Soon-red?style=for-the-badge)
 ![Context](https://img.shields.io/badge/Context-2_Million+_Tokens-blue?style=for-the-badge)
 ![Parameters](https://img.shields.io/badge/Params-250B_MoE-orange?style=for-the-badge)
-![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
+![License](https://img.shields.io/badge/License-Apache_2.0-yellow?style=for-the-badge)
 
 ---
 
@@ -73,4 +73,32 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 
 ---
 
-_**AlphaExaAI:** Rebalancing the scales of intelligence. The future is Open._
+## 📜 Apache 2.0 License
+
+Copyright (c) 2025 **AlphaExaAI Contributors**
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+
+---
+
+## 📌 Summary for Users
+- ✅ **Permissive:** Commercial use, modification, and distribution allowed.
+- ✅ **Patent Grant:** Explicit protection against patent litigation from contributors.
+- ❌ **Liability:** No warranty provided.
+
+---
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Open%20Source-Yes-brightgreen?style=for-the-badge&logo=opensourceinitiative">
+  <img src="https://img.shields.io/badge/License-Apache_2.0-yellow?style=for-the-badge&logo=apache">
+</p>
