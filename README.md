@@ -1,10 +1,20 @@
 # **AlphaExaAI — The Omnipotent Agentic Foundation**
 _The first open-source, exascale-ready foundation model designed not just to chat, but to **act**, **build**, and **control**._
 
-![Status](https://img.shields.io/badge/Status-Coming_Soon-red?style=for-the-badge)
-![Context](https://img.shields.io/badge/Context-2_Million+_Tokens-blue?style=for-the-badge)
-![Parameters](https://img.shields.io/badge/Params-250B_MoE-orange?style=for-the-badge)
-![License](https://img.shields.io/badge/License-Apache_2.0-yellow?style=for-the-badge)
+```text
+    ___    __      __          ______           ___    ____
+   /   |  / /___  / /_  ____ _/ ____/  ______ _/   |  /  _/
+  / /| | / / __ \/ __ \/ __ `/ __/ | |/_/ __ `/ /| |  / /  
+ / ___ |/ / /_/ / / / / /_/ / /____>  </ /_/ / ___ |_/ /   
+/_/  |_/_/ .___/_/ /_/\__,_/_____/_/|_|\__,_/_/  |_/___/   
+        /_/                                                
+```
+
+![Status](https://img.shields.io/badge/Status-Coming_Soon-red?style=for-the-badge&logo=statuspage)
+![Context](https://img.shields.io/badge/Context-2_Million+_Tokens-blue?style=for-the-badge&logo=memory)
+![Architecture](https://img.shields.io/badge/Arch-Hybrid_MoE-purple?style=for-the-badge&logo=nvidia)
+![Build](https://img.shields.io/badge/Build-HPC_Ready-success?style=for-the-badge&logo=linux)
+![License](https://img.shields.io/badge/License-Apache_2.0-yellow?style=for-the-badge&logo=apache)
 
 ---
 
