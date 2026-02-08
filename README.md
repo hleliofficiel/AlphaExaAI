@@ -121,8 +121,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 ---
 
 ### 📞 Contact & Lead Researcher
-
-**Lead Researcher:** Mohammed Hleli  
+ 
 **GitHub:** [hleliofficiel](https://github.com/hleliofficiel)  
 **Research Lab:** Global Open Science Initiative
 
