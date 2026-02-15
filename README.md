@@ -177,7 +177,7 @@ A heartfelt thank you to everyone who made ExaMind possible:
 | Contributor | Role |
 |-------------|------|
 | **[@hleliofficiel](https://github.com/hleliofficiel)** | Lead Researcher & Founder |
-| **[@ilbat](https://github.com/ilbat)** | Resource Contributor & Assistant |
+| **[@imec-idlab](https://github.com/imec-idlab)** | Resource Contributor & Infrastructure Partner |
 | **[@HuggingFace](https://huggingface.co)** | Model hosting & open-source AI infrastructure |
 | **[@DarekHub](https://github.com/DarekHub)** | Data Contributor |
 | **Kaitlyn Truby** | Researcher |
