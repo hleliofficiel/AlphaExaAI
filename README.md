@@ -1,15 +1,6 @@
 # **AlphaExaAI — The Omnipotent Agentic Foundation**
 _The first open-source, exascale-ready foundation model designed not just to chat, but to **act**, **build**, and **control**._
 
-```text
-    ___    __      __          ______           ___    ____
-   /   |  / /___  / /_  ____ _/ ____/  ______ _/   |  /  _/
-  / /| | / / __ \/ __ \/ __ `/ __/ | |/_/ __ `/ /| |  / /  
- / ___ |/ / /_/ / / / / /_/ / /____>  </ /_/ / ___ |_/ /   
-/_/  |_/_/ .___/_/ /_/\__,_/_____/_/|_|\__,_/_/  |_/___/   
-        /_/                                                
-```
-
 <p align="center">
 
 ![Status](https://img.shields.io/badge/Status-ExaMind_V2_LIVE-brightgreen?style=for-the-badge&logo=statuspage)
@@ -174,8 +165,10 @@ A heartfelt thank you to everyone who made ExaMind possible:
 |-------------|------|
 | **[@hleliofficiel](https://github.com/hleliofficiel)** | Lead Researcher & Founder |
 | **[@ilbat](https://github.com/ilbat)** | Resource Contributor & Assistant |
+| **[@HuggingFace](https://huggingface.co)** | Model hosting & open-source AI infrastructure |
+| **[@DarekHub](https://github.com/DarekHub)** | Data Contributor |
+| **Kaitlyn Truby** | Researcher |
 | **AlphaExaAI Community** | Testing, feedback, and support |
-| **Hugging Face** | Model hosting and infrastructure |
 | **Qwen Team** | Base model architecture |
 
 > *This project was built with love, late nights, and an obsession with pushing the boundaries of open-source AI.* ❤️
