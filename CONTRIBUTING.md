@@ -48,10 +48,8 @@ We are building advanced open-source AI models, and we believe the best AI is bu
 
 ### 1. Fork & Clone
 
-Fork this repository first, then:
-
 ```bash
-git clone https://github.com/hleliofficiel/AlphaExaAI.git
+git clone https://github.com/YOUR_USERNAME/AlphaExaAI.git
 cd AlphaExaAI
 ```
 
