@@ -133,6 +133,19 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for detailed guidelines.
 
 ---
 
+## 🏫 Universities & Research Teams
+
+We actively welcome academic collaborations! If you're a university or research lab interested in:
+
+- 🔬 Using ExaMind for research
+- 🖥️ Contributing compute resources
+- 📄 Co-authoring papers
+- 🎓 Student projects
+
+Please [open a collaboration issue](https://github.com/hleliofficiel/AlphaExaAI/issues/new?template=collaboration.yml) or email us at **h.hleli@tuta.io**.
+
+---
+
 ## 💖 Support AlphaExaAI
 
 Building open-source AI requires significant resources. If you believe in our mission, consider supporting us:
