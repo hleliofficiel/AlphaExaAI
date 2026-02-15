@@ -16,7 +16,7 @@ _The first open-source, exascale-ready foundation model designed not just to cha
 
 <div align="center">
 
-## 🎉 ExaMind V2-Final is NOW LIVE on Hugging Face!
+## 🎉 ExaMind is NOW LIVE on Hugging Face!
 
 ### 🧠 [**Download ExaMind →**](https://huggingface.co/AlphaExaAI/ExaMind)
 
@@ -98,7 +98,7 @@ AlphaExaAI models are trained on real-world operational data, giving them practi
 ## 🗺️ Roadmap
 
 - [x] **ExaMind V1** — Initial research release
-- [x] **ExaMind V2-Final** — 🎉 **LIVE NOW** on [Hugging Face](https://huggingface.co/AlphaExaAI/ExaMind)
+- [x] **ExaMind** — 🎉 **LIVE NOW** on [Hugging Face](https://huggingface.co/AlphaExaAI/ExaMind)
 - [ ] **ExaMind V2-GGUF** — Quantized versions for efficient CPU inference
 - [ ] **ExaMind V3** — Extended 128K context, enhanced reasoning
 - [ ] **ExaMind-Code** — Specialized coding model
@@ -142,7 +142,7 @@ Building open-source AI requires significant resources. If you believe in our mi
 | Platform | Link |
 |----------|------|
 | **GitHub Sponsors** | [Sponsor @hleliofficiel](https://github.com/sponsors/hleliofficiel) |
-| **Buy Me a Coffee** | [buymeacoffee.com/alphaexaai](https://buymeacoffee.com/alphaexaai) |
+| **Buy Me a Coffee** | *Coming soon* |
 | **Bitcoin (BTC)** | `Coming soon` |
 | **Ethereum (ETH)** | `Coming soon` |
 
