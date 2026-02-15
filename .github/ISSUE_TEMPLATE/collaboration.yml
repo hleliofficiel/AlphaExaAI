@@ -1,0 +1,45 @@
+name: 🤝 Collaboration / Resource Offer
+description: Offer resources, compute, or research collaboration
+title: "[COLLAB] "
+labels: ["collaboration", "resources"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for your interest in supporting AlphaExaAI! 🎉
+        We welcome contributions from researchers, universities, organizations, and individuals.
+  - type: dropdown
+    id: type
+    attributes:
+      label: Type of Contribution
+      options:
+        - 🖥️ Compute Resources (GPU/TPU/Cloud Credits)
+        - 🔬 Research Collaboration
+        - 🏫 University Partnership
+        - 💰 Financial Sponsorship
+        - 📊 Dataset Contribution
+        - 📝 Documentation / Translation
+        - 🧪 Benchmarking / Evaluation
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Tell us about your offer or proposal
+      placeholder: What resources or collaboration can you provide?
+    validations:
+      required: true
+  - type: input
+    id: organization
+    attributes:
+      label: Organization (if applicable)
+      placeholder: University, company, or research lab name
+  - type: input
+    id: contact
+    attributes:
+      label: Contact Email
+      placeholder: your@email.com
+    validations:
+      required: true

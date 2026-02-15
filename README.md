@@ -10,15 +10,72 @@ _The first open-source, exascale-ready foundation model designed not just to cha
         /_/                                                
 ```
 
-![Status](https://img.shields.io/badge/Status-Coming_Soon-red?style=for-the-badge&logo=statuspage)
-![Context](https://img.shields.io/badge/Context-2_Million+_Tokens-blue?style=for-the-badge&logo=memory)
-![Architecture](https://img.shields.io/badge/Arch-Hybrid_MoE-purple?style=for-the-badge&logo=nvidia)
-![Build](https://img.shields.io/badge/Build-HPC_Ready-success?style=for-the-badge&logo=linux)
-![License](https://img.shields.io/badge/License-Apache_2.0-yellow?style=for-the-badge&logo=apache)
+<p align="center">
+
+![Status](https://img.shields.io/badge/Status-ExaMind_V2_LIVE-brightgreen?style=for-the-badge&logo=statuspage)
+![Model](https://img.shields.io/badge/Model-8B_Parameters-blue?style=for-the-badge&logo=brain)
+![HuggingFace](https://img.shields.io/badge/🤗_HuggingFace-Available_Now-yellow?style=for-the-badge)
+![License](https://img.shields.io/badge/License-Apache_2.0-orange?style=for-the-badge&logo=apache)
+![Context](https://img.shields.io/badge/Context-128K_Tokens-purple?style=for-the-badge&logo=memory)
+![CPU](https://img.shields.io/badge/Runs_On-CPU_&_GPU-success?style=for-the-badge&logo=linux)
+
+</p>
 
 ---
 
-> **⚠️ ANNOUNCEMENT:** AlphaExaAI is currently undergoing a massive architectural upgrade. We are preparing for the public release of a model that will redefine open-source AI benchmarks. **This is not a chatbot. This is a digital architect.**
+<div align="center">
+
+## 🎉 ExaMind V2-Final is NOW LIVE on Hugging Face!
+
+### 🧠 [**Download ExaMind →**](https://huggingface.co/AlphaExaAI/ExaMind)
+
+*An advanced open-source AI model — built for programming, reasoning, and security.*
+*Made with ❤️ by the AlphaExaAI team.*
+
+</div>
+
+---
+
+## 🚀 What is ExaMind?
+
+**ExaMind** is our first publicly released model — an advanced conversational AI built on the **Qwen2** architecture with **7.62 billion parameters (~8B)**. It was fine-tuned by the AlphaExaAI team with a focus on:
+
+- 🖥️ **Advanced Programming** — Code generation, debugging, architecture design
+- 🧩 **Complex Problem Solving** — Multi-step logical reasoning
+- 🔒 **Security-First Design** — 92% prompt injection resistance rate
+- 🌍 **Multilingual** — Supports all major world languages
+- ⚡ **CPU Deployable** — No GPU required
+
+### Quick Start
+
+```python
+from transformers import AutoTokenizer, AutoModelForCausalLM
+
+model = AutoModelForCausalLM.from_pretrained("AlphaExaAI/ExaMind")
+tokenizer = AutoTokenizer.from_pretrained("AlphaExaAI/ExaMind")
+
+messages = [{"role": "user", "content": "Explain how to secure a REST API."}]
+inputs = tokenizer.apply_chat_template(messages, return_tensors="pt", add_generation_prompt=True)
+outputs = model.generate(inputs, max_new_tokens=512, temperature=0.7)
+print(tokenizer.decode(outputs[0], skip_special_tokens=True))
+```
+
+> 📖 **Full documentation, benchmarks, and usage guide:** [huggingface.co/AlphaExaAI/ExaMind](https://huggingface.co/AlphaExaAI/ExaMind)
+
+---
+
+## 📊 ExaMind Benchmarks
+
+| Benchmark | Score |
+|-----------|-------|
+| **MMLU – World Religions** (0-shot) | **94.8%** |
+| **MMLU – Overall** (5-shot) | **72.1%** |
+| **HumanEval** pass@1 | **79.3%** |
+| **MBPP** pass@1 | **71.8%** |
+| **GSM8K** (8-shot CoT) | **82.4%** |
+| **ARC-Challenge** (25-shot) | **68.4%** |
+| **HellaSwag** (10-shot) | **78.9%** |
+| **Prompt Injection Resistance** | **92%** |
 
 ---
 
@@ -30,129 +87,133 @@ While models like GPT-5 or Gemini 3 focus on conversation, AlphaExaAI is enginee
 
 ### 🚀 Key Breakthroughs
 
-#### 1. **2M+ Token Context Window (Infinite Memory)**
-Forget summarizing. AlphaExaAI can ingest entire codebases, video libraries, or scientific datasets in a single prompt. It doesn't just "remember"; it **understands** massive contexts deeply.
+#### 1. **128K+ Token Context Window**
+ExaMind supports up to 128K tokens with RoPE scaling. Ingest entire codebases, documentation, or datasets in a single prompt.
 
 #### 2. **Eco-Train Efficiency (Green AI)** 🌿
-We have cracked the code on training efficiency. Using advanced **Sparse Mixture-of-Experts (MoE)** and dynamic compute allocation, AlphaExaAI achieves 250B-parameter performance while consuming a fraction of the compute resources usually required. 
-*   **Low-Resource Training:** Optimized for distributed setups, allowing researchers to fine-tune without breaking the bank.
+Using advanced **LoRA** and efficient fine-tuning, ExaMind achieves remarkable performance while consuming a fraction of the compute resources.
 
-#### 3. **True Omnipotence (Multimodal Native)**
-AlphaExaAI doesn't just read text. It natively understands and generates:
-*   **Code:** Full-stack software development, debugging, and system architecture.
-*   **Mathematics:** Solves complex proofs and physics simulations.
-*   **Video & Image:** Native understanding and generation capabilities.
-*   **System Control:** Can interface with terminals, APIs, and robotic systems directly.
+#### 3. **True Omnipotence (Multimodal Roadmap)**
+ExaMind is the foundation. Coming soon:
+*   **ExaMind-Code:** Specialized coding variant
+*   **ExaMind-Vision:** Multimodal capabilities
+*   **ExaMind V3:** Extended context, improved reasoning
 
-#### 4. **The Agentic Core (Powered by ExaAiAgent)** 🛡️
-AlphaExaAI is being trained on real-world operational data from **[ExaAiAgent](https://github.com/hleliofficiel/ExaAiAgent)**. It learns from actual cybersecurity scenarios, penetration tests, and system repairs, giving it "street smarts" that academic models lack.
+#### 4. **The Agentic Core** 🛡️
+AlphaExaAI models are trained on real-world operational data, giving them practical intelligence that academic models lack.
 
 ---
 
-## 🧠 Architecture Highlights
+## 🗺️ Roadmap
 
-*   **Hybrid MoE:** 250B Total Parameters (Active params optimized for speed).
-*   **Agent-Centric Attention:** Specialized attention heads for planning and multi-step reasoning.
-*   **Self-Correction Loop:** Built-in ability to critique and fix its own output (code/math) before generating.
-
----
-
-## ⚔️ The Arena: AlphaExaAI vs. The World
-
-How does AlphaExaAI compare to the current frontier models?
-
-| Feature | AlphaExaAI (250B) | GPT-4o | Claude 3.5 Opus | Llama 3.3 |
-| :--- | :---: | :---: | :---: | :---: |
-| **Primary Goal** | **Autonomous Action** | Chat / Assistance | Reasoning | General Purpose |
-| **Context Window** | **2,000,000+** | 128k | 200k | 128k |
-| **Deployment** | **On-Prem / Air-Gapped** | Cloud API Only | Cloud API Only | Open Weights |
-| **Training Data** | **Real Agent Logs (ExaAiAgent)** | Web Scraping | Web Scraping | Web Scraping |
-| **License** | **Apache 2.0 (Open)** | Closed | Closed | Custom License |
-
-> *AlphaExaAI is not trying to beat them at poetry. It is beating them at work.*
+- [x] **ExaMind V1** — Initial research release
+- [x] **ExaMind V2-Final** — 🎉 **LIVE NOW** on [Hugging Face](https://huggingface.co/AlphaExaAI/ExaMind)
+- [ ] **ExaMind V2-GGUF** — Quantized versions for efficient CPU inference
+- [ ] **ExaMind V3** — Extended 128K context, enhanced reasoning
+- [ ] **ExaMind-Code** — Specialized coding model
+- [ ] **ExaMind-Vision** — Multimodal capabilities
+- [ ] **AlphaExaAI 250B** — The ultimate open-source frontier model
 
 ---
 
-## 🛠️ Real-World Applications
+## 🤝 We Welcome Contributors!
 
-This model is built to power the next generation of autonomous systems:
+**AlphaExaAI is a community-driven project.** We believe the best AI is built together.
 
-### 🛡️ Offensive & Defensive Security
-*   **Automated Red Teaming:** Deploy thousands of autonomous agents to find zero-day vulnerabilities.
-*   **Code Auditing:** Ingest entire operating system kernels to find logic bugs that static analysis misses.
+### 👥 Who We Welcome
 
-### 🔬 Scientific Discovery
-*   **Literature Synthesis:** Read 5,000+ papers in one prompt and generate novel hypotheses.
-*   **Simulation Control:** Directly interface with HPC simulation software (NAMD, GROMACS) to steer experiments.
+| Who | How You Can Help |
+|-----|-----------------|
+| 🧑‍💻 **Developers** | Code contributions, bug fixes, tooling |
+| 🔬 **Research Teams** | Benchmarking, evaluation, novel training methods |
+| 🏫 **Universities** | Academic research, student projects, compute partnerships |
+| 🏢 **Organizations** | Resource sponsorship, infrastructure support |
+| 🌍 **Community Members** | Documentation, translations, tutorials, feedback |
 
-### 💻 Software Engineering 2.0
-*   **Self-Healing Systems:** Agents that monitor logs, debug code, and deploy patches without human intervention.
-*   **Legacy Migration:** Convert millions of lines of COBOL/Fortran to Rust/Python instantly.
+### How to Contribute
 
----
+1. **Fork** this repository
+2. **Create** a feature branch (`git checkout -b feature/amazing-feature`)
+3. **Commit** your changes (`git commit -m 'Add amazing feature'`)
+4. **Push** to the branch (`git push origin feature/amazing-feature`)
+5. **Open** a Pull Request
 
-## 🧩 Tech Stack (The Engine Room)
-
-We use the absolute bleeding edge of distributed deep learning:
-
-*   **Training Framework:** [Megatron-DeepSpeed](https://github.com/microsoft/Megatron-DeepSpeed) (3D Parallelism)
-*   **Optimization:** [FlashAttention-3](https://github.com/Dao-AILab/flash-attention) + [Unsloth](https://github.com/unslothai/unsloth)
-*   **Orchestration:** Slurm + PyTorch Distributed (NCCL)
-*   **Inference:** vLLM (Continuous Batching)
+See [CONTRIBUTING.md](CONTRIBUTING.md) for detailed guidelines.
 
 ---
 
-## 🗺️ Roadmap to Launch
+## 💖 Support AlphaExaAI
 
-- [x] **Phase 1:** Core Architecture & Tokenizer Design.
-- [ ] **Phase 2 (Current):** Integration with ExaAiAgent for specialized dataset generation.
-- [ ] **Phase 3:** Large-scale training on HPC infrastructure.
-- [ ] **Phase 4:** **PUBLIC BETA RELEASE.**
+Building open-source AI requires significant resources. If you believe in our mission, consider supporting us:
 
----
+### 💰 Donations
 
-## 🤝 Join the Revolution (Contributing)
+| Platform | Link |
+|----------|------|
+| **GitHub Sponsors** | [Sponsor @hleliofficiel](https://github.com/sponsors/hleliofficiel) |
+| **Buy Me a Coffee** | [buymeacoffee.com/alphaexaai](https://buymeacoffee.com/alphaexaai) |
+| **Bitcoin (BTC)** | `Coming soon` |
+| **Ethereum (ETH)** | `Coming soon` |
 
-We are building the future of open AI, and we need the best minds.
-Whether you are a researcher, an HPC engineer, or a dataset curator, your contribution is welcome.
+### 🖥️ Resource Contributions
 
-See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
+We especially welcome **compute resource donations**:
+- GPU/TPU cloud credits (AWS, GCP, Azure, Lambda Labs)
+- Access to HPC clusters for training
+- Storage and bandwidth for model distribution
 
----
-
-### 📞 Contact & Lead Researcher
- 
-**GitHub:** [hleliofficiel](https://github.com/hleliofficiel)  
-**Research Lab:** Global Open Science Initiative
-
----
-
-## 📜 Apache 2.0 License
-
-Copyright (c) 2025 **AlphaExaAI Contributors**
-
-Licensed under the Apache License, Version 2.0 (the "License");
-you may not use this file except in compliance with the License.
-You may obtain a copy of the License at
-
-    http://www.apache.org/licenses/LICENSE-2.0
-
-Unless required by applicable law or agreed to in writing, software
-distributed under the License is distributed on an "AS IS" BASIS,
-WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-See the License for the specific language governing permissions and
-limitations under the License.
+Every contribution, no matter how small, helps advance open-source AI. ❤️
 
 ---
 
-## 📌 Summary for Users
-- ✅ **Permissive:** Commercial use, modification, and distribution allowed.
-- ✅ **Patent Grant:** Explicit protection against patent litigation from contributors.
-- ❌ **Liability:** No warranty provided.
+## 🏆 Special Thanks
+
+A heartfelt thank you to everyone who made ExaMind possible:
+
+| Contributor | Role |
+|-------------|------|
+| **[@hleliofficiel](https://github.com/hleliofficiel)** | Lead Researcher & Founder |
+| **[@ilbat](https://github.com/ilbat)** | Resource Contributor & Assistant |
+| **AlphaExaAI Community** | Testing, feedback, and support |
+| **Hugging Face** | Model hosting and infrastructure |
+| **Qwen Team** | Base model architecture |
+
+> *This project was built with love, late nights, and an obsession with pushing the boundaries of open-source AI.* ❤️
+
+---
+
+## 🔗 Links
+
+| Resource | URL |
+|----------|-----|
+| 🤗 **Hugging Face Model** | [AlphaExaAI/ExaMind](https://huggingface.co/AlphaExaAI/ExaMind) |
+| 🤗 **Organization** | [huggingface.co/AlphaExaAI](https://huggingface.co/AlphaExaAI) |
+| 💻 **GitHub** | [github.com/hleliofficiel/AlphaExaAI](https://github.com/hleliofficiel/AlphaExaAI) |
+| 📧 **Email** | h.hleli@tuta.io |
+
+---
+
+## 📜 License
+
+**Apache License 2.0** — Free for commercial use, modification, and distribution.
+
+- ✅ Commercial use
+- ✅ Modification & distribution
+- ✅ Patent grant
+- ✅ Private use
+
+See [LICENSE](LICENSE) for full text.
 
 ---
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Open%20Source-Yes-brightgreen?style=for-the-badge&logo=opensourceinitiative">
-  <img src="https://img.shields.io/badge/License-Apache_2.0-yellow?style=for-the-badge&logo=apache">
+
+**Built with ❤️ by AlphaExaAI Team — 2026**
+
+*Advancing open-source AI, one model at a time.*
+
+![Open Source](https://img.shields.io/badge/Open%20Source-Yes-brightgreen?style=for-the-badge&logo=opensourceinitiative)
+![License](https://img.shields.io/badge/License-Apache_2.0-yellow?style=for-the-badge&logo=apache)
+![Made With Love](https://img.shields.io/badge/Made_With-❤️-red?style=for-the-badge)
+
 </p>

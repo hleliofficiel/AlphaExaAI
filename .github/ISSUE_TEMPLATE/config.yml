@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: 🤗 Hugging Face Model
+    url: https://huggingface.co/AlphaExaAI/ExaMind
+    about: Download ExaMind from Hugging Face
+  - name: 📧 Contact Us
+    url: mailto:h.hleli@tuta.io
+    about: Email us directly for private inquiries
