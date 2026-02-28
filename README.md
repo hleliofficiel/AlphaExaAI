@@ -198,9 +198,8 @@ A heartfelt thank you to everyone who made ExaMind possible:
 | **[@hleliofficiel](https://github.com/hleliofficiel)** | Lead Researcher & Founder |
 | **[@imec-idlab](https://github.com/imec-idlab)** | Resource Contributor & Infrastructure Partner |
 | **[@HuggingFace](https://huggingface.co)** | Model hosting & open-source AI infrastructure |
-| **[@DarekHub](https://github.com/DarekHub)** | Data Contributor |
-| **Kaitlyn Truby** | Researcher |
-| **AlphaExaAI Community** | Testing, feedback, and support |
+| **[@hleliofficiel](https://github.com/hleliofficiel)** | Data Contributor |
+**AlphaExaAI Community** | Testing, feedback, and support |
 | **Qwen Team** | Base model architecture |
 
 > *This project was built with love, late nights, and an obsession with pushing the boundaries of open-source AI.* ❤️
