@@ -18,7 +18,8 @@ _The first open-source, exascale-ready foundation model designed not just to cha
 
 ## 🎉 ExaMind is NOW LIVE on Hugging Face!
 
-### 🧠 [**Download ExaMind →**](https://huggingface.co/AlphaExaAI/ExaMind)
+### 🧠 View the model on Hugging Face
+https://huggingface.co/AlphaExaAI/ExaMind
 
 *An advanced open-source AI model — built for programming, reasoning, and security.*
 *Made with ❤️ by the AlphaExaAI team.*
