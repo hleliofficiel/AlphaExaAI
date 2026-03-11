@@ -112,7 +112,9 @@ AlphaExaAI models are trained on real-world operational data, giving them practi
 
 We believe in open science. That's why we open-source not just the models, but the data used to train them.
 
-### 🧠 [ExaMind-Dataset (569K Samples)](https://huggingface.co/datasets/AlphaExaAI/ExaMind-Dataset)
+### 🧠 ExaMind-Dataset (569K Samples)
+
+The official dataset used to train ExaMind will be available through the AlphaExaAI distribution platform.
 
 The official training dataset for ExaMind, covering 17 domains and 35 languages.
 
@@ -123,7 +125,7 @@ The official training dataset for ExaMind, covering 17 domains and 35 languages.
 | **Focus** | Debugging (17%), Math (16%), Coding (14%), Agents (9%) |
 | **Languages** | 35+ (English, Arabic, Chinese, etc.) |
 
-👉 **[view Hugging Face](https://huggingface.co/datasets/AlphaExaAI/ExaMind-Dataset)**
+👉 ** view Hugging Face AlphaExAi**
 
 ---
 
