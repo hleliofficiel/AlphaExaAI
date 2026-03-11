@@ -52,7 +52,10 @@ outputs = model.generate(inputs, max_new_tokens=512, temperature=0.7)
 print(tokenizer.decode(outputs[0], skip_special_tokens=True))
 ```
 
-> 📖 **Full documentation, benchmarks, and usage guide:** [huggingface.co/AlphaExaAI/ExaMind](https://huggingface.co/AlphaExaAI/ExaMind)
+> 📖 **Full documentation, benchmarks, and usage guide:**
+> ### 🧠 ExaMind Model
+
+The ExaMind model is available through the official AlphaExaAI distribution platform.
 
 ---
 
