@@ -102,7 +102,9 @@ AlphaExaAI models are trained on real-world operational data, giving them practi
 ## 🗺️ Roadmap
 
 - [x] **ExaMind V1** — Initial research release
-- [x] **ExaMind** — 🎉 **LIVE NOW** on [Hugging Face](https://huggingface.co/AlphaExaAI/ExaMind)
+- [x] **ExaMind** — 🎉 **LIVE NOW** on ### 🧠 ExaMind Model
+
+The ExaMind model is available through the official AlphaExaAI distribution platform.
 - [ ] **ExaMind V2-GGUF** — Quantized versions for efficient CPU inference
 - [ ] **ExaMind V3** — Extended 128K context, enhanced reasoning
 - [ ] **ExaMind-Code** — Specialized coding model
