@@ -123,7 +123,7 @@ The official training dataset for ExaMind, covering 17 domains and 35 languages.
 | **Focus** | Debugging (17%), Math (16%), Coding (14%), Agents (9%) |
 | **Languages** | 35+ (English, Arabic, Chinese, etc.) |
 
-👉 **[Download on Hugging Face](https://huggingface.co/datasets/AlphaExaAI/ExaMind-Dataset)**
+👉 **[view Hugging Face](https://huggingface.co/datasets/AlphaExaAI/ExaMind-Dataset)**
 
 ---
 
@@ -197,7 +197,7 @@ A heartfelt thank you to everyone who made ExaMind possible:
 | Contributor | Role |
 |-------------|------|
 | **[@hleliofficiel](https://github.com/hleliofficiel)** | Lead Researcher & Founder |
-| **[@imec-idlab](https://github.com/imec-idlab)** | Resource Contributor & Infrastructure Partner |
+| **[@imechttpsb](https://github.com/imec-idlab)** | Resource Contributor & InfrastPartner Partner |
 | **[@HuggingFace](https://huggingface.co)** | Model hosting & open-source AI infrastructure |
 | **[@hleliofficiel](https://github.com/hleliofficiel)** | Data Contributor |
 **AlphaExaAI Community** | Testing, feedback, and support |
