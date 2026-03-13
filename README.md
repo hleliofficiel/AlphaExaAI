@@ -204,7 +204,7 @@ A heartfelt thank you to everyone who made ExaMind possible:
 | Contributor | Role |
 |-------------|------|
 | **[@hleliofficiel](https://github.com/hleliofficiel)** | Lead Researcher & Founder |
-| **[@imechttpsb](https://github.com/imec-idlab)** | Resource Contributor & InfrastPartner Partner |
+| **[@hpc](https://github.com/)** | Resource Contributor & InfrastPartner Partner |
 | **[@HuggingFace](https://huggingface.co)** | Model hosting & open-source AI infrastructure |
 | **[@hleliofficiel](https://github.com/hleliofficiel)** | Data Contributor |
 **AlphaExaAI Community** | Testing, feedback, and support |
